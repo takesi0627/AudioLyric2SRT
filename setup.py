@@ -15,8 +15,8 @@ setup(
         "pydub",
     ],
     entry_points={
-        "console_scripts": [
-            "audiol2srt = AudioLyric2SRT.__init__:main",
+        'console_scripts': [
+            'audiol2srt = audiol2srt.audiol2srt:main',
         ],
     },
     classifiers=[
