@@ -16,7 +16,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "audio-lyric2srt = AudioLyric2SRT.__init__:main",
+            "audiol2srt = AudioLyric2SRT.__init__:main",
         ],
     },
     classifiers=[

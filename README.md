@@ -12,9 +12,8 @@ AudioLyric2SRT is a Python package that allows you to generate subtitle files (S
 
 To install AudioLyric2SRT, run the following command:
 ```
-pip install git+https://github.com/your_username/AudioLyric2SRT.git
+pip install AudioLyric2SRT
 ```
-Replace `your_username` with your GitHub username.
 
 ## Usage
 
@@ -24,7 +23,7 @@ You can use AudioLyric2SRT as a command-line tool or within a Python script.
 
 To use AudioLyric2SRT from the command line, run the following command:
 ```
-audio-lyric2srt <mp3_file> <lyrics_file> <output_srt>
+audiol2srt <mp3_file> <lyrics_file> <output_srt>
 ```
 Replace `<mp3_file>`, `<lyrics_file>`, and `<output_srt>` with the respective paths to the MP3 file, lyrics text file, and output SRT file.
 
